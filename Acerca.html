@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+    <header>
+        <h1>LOS MEJORES SITIOS TURISTICOS EN COLOMBIA</h1>
+        <p>En este espacio podrás ver los mejores sitios turísticos para visitar en Colombia</p>
+    </header>
+
+    <nav class="nav">
+        <a href="Inicio.html">Inicio</a>
+        <a href="Acerca.html">Sobre Nosotros</a>
+    </nav>
+
+    <section class="quienessomos">
+        <h2>Quienes Somos?</h2>
+        <p>Somos un equipo de trabajo que busca llevar la belleza de grandes lugares Colombianos a residentes y extranjeros.</p>
+        <p>Nuestro principal objetivo es lograr que los residentes se enamoren más de su país y los extranjeros deseen inventir en turismo, o algo más...</p>
+        <p>También queremos incluir a emprendedores que quieren mostrar sus lugares como una excelente opción para llegar a esos lugares maravillos, pero desconocidos de nuestra geografía nacional</p>
+    </section>
+    <form class="form" method="POST" id="formulariocontacto">
+        <h4>Para mas información, ingresa tus datos y no tardaremos en contactarte</h4>    
+        <label for="">Nombre</label>
+        <input type="text" id="nombre"> 
+        <label for="">Correo Electrónico</label>
+        <input type="email" id="email">     
+        <label for="">Tema de contacto</label>
+        <select> 
+            <option value="Publicar mi centro turístico">Publicar mi centro turístico</option>
+            <option value="Buscar información sobre otras zonas">Buscar información sobre otras zonas</option>
+            <option value="Recomendaciones de visitas">Recomendaciones de visitas</option>
+        </select>
+        <button type="submit">Enviar</button>
+        <p class="warnings" id="warnings"></p>
+    </form>
+
+    <footer class="footer">
+        <hr class="lineapie">
+        <hr class="lineapie1">
+        <h4>Datos de contacto:</h4>
+        <h6>Diana Yeimy Moya</h6>
+        <h6>Calle 3Bis 18A 16 Madrid Cundinamarca</h6>
+        <h6>Cel. 3154859285</h6>
+    </footer>
+    <script src="validarform.js" type="text/javascript" defer></script>
+</body>
+</html>
